@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.088">
+    <testcase classname="Feature de prueba" name="Registrar un nuevo empleado" time="20.604">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException">
+            <![CDATA[Given El usuario inicia sesion..............................................passed
+When ingresa opcion pim.....................................................pending
+When clic en el boton registrar empleado....................................skipped
+When ingresa datos del empleado.............................................skipped
+Then se crear el empleado con exito.........................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
