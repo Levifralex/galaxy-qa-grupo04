@@ -14,24 +14,23 @@ public class RegisterEmployeeSteps extends Base {
 	public void el_usuario_inicia_sesion() throws InterruptedException {
 		//name input usuario => username
 		//name input password => password
-		
 		driver.findElement(By.name("username")).sendKeys("Admin");
 		driver.findElement(By.name("password")).sendKeys("admin123");
 		driver.findElement(By.className("orangehrm-login-button")).submit();
-		Thread.sleep(10000);
+		Thread.sleep(2000);
 		
 	}
 
 	@When("ingresa opcion pim")
-	public void ingresa_opcion_pim() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+	public void ingresa_opcion_pim() throws InterruptedException {
+		driver.findElement(By.linkText("PIM")).click();
+		Thread.sleep(2000);
 	}
 
 	@When("clic en el boton registrar empleado")
-	public void clic_en_el_boton_registrar_empleado() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+	public void clic_en_el_boton_registrar_empleado() throws InterruptedException {
+		driver.findElement(By.linkText("Add Employee")).click();
+		Thread.sleep(2000);
 	}
 
 	@When("ingresa datos del empleado")
