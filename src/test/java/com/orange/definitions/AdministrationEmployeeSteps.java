@@ -8,9 +8,9 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class RegisterEmployeeSteps extends Base {
+public class AdministrationEmployeeSteps extends Base {
 
-	@Given("El usuario inicia sesion")
+	/*@Given("El usuario inicia sesion")
 	public void el_usuario_inicia_sesion() throws InterruptedException {
 		//name input usuario => username
 		//name input password => password
@@ -43,6 +43,6 @@ public class RegisterEmployeeSteps extends Base {
 	public void se_crear_el_empleado_con_exito() {
 		// Write code here that turns the phrase above into concrete actions
 		throw new io.cucumber.java.PendingException();
-	}
+	}*/
 
 }
